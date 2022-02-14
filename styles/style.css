@@ -11,7 +11,7 @@ header {
 
 nav {
   position: absolute;
-  top: 110px;
+  top: 100px;
   right: 0;
 }
 
@@ -33,57 +33,49 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.principal {
-  background: #cccccc;
-  padding: 30px;
+.produtos {
+  margin: 0 auto;
+  width: 940px;
+  padding: 50px 0;
 }
 
-.banner {
-  width: 100%;
-}
-
-.titulo-centralizado {
+.produtos li {
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 1.5%;
+  padding: 30px 20px;
   text-align: center;
+  vertical-align: top;
+  width: 30%;
 }
 
-p {
-  text-align: center;
+.produtos li:hover {
+  border-color: #c78c19;
 }
 
-.missao {
-  font-size: 20px;
+.produtos li:active {
+  border-color: #088c19;
 }
 
-em {
-  font-style: italic;
-}
-
-strong {
+.produtos h2 {
+  font-size: 30px;
   font-weight: bold;
 }
 
-em strong {
-  color: #ff0000;
+.produtos li:hover h2 {
+  font-size: 34px;
 }
 
-.beneficios {
-  background: #ffffff;
-  padding: 20px;
+.produto-descricao {
+  font-size: 18px;
 }
 
-.beneficios ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
-}
-
-.itens {
-  font-style: italic;
-}
-
-.imagem-beneficios {
-  width: 50%;
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0 0;
 }
 
 footer {
@@ -96,4 +88,26 @@ footer {
   color: #ffffff;
   font-size: 13px;
   margin-top: 20px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form input {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
