@@ -59,7 +59,8 @@ nav a:hover {
 
 .produtos li:hover {
   border-color: #c78c19;
-  transform: scale(1.1);
+  transform: scale(1.05);
+  transition: all 0.2s;
 }
 
 .produtos li:active {
